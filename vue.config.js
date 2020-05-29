@@ -5,12 +5,8 @@ module.exports = {
     ? '/veterinary-license/'
     : '/',
   configureWebpack: {
-    plugins: [
-      new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery',
-        'windows.jQuery': 'jquery',
-      }),
-    ],
-  },
+    performance: {
+      hints:false
+    }
+  } 
 };
