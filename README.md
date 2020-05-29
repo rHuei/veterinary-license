@@ -1,24 +1,12 @@
-# veterinary-license
+# 全國獸醫診所查詢
+串接獸醫師(佐)開業執照，查詢全國動物醫院地址資料
 
-## Project setup
-```
-npm install
-```
+# Demo 網址
+[https://mtfeather.github.io/veterinary-license/](https://mtfeather.github.io/veterinary-license/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 開放資料來源
+[https://data.coa.gov.tw/Query/ServiceDetail.aspx?id=078](https://data.coa.gov.tw/Query/ServiceDetail.aspx?id=078)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 使用技術
+- Vue-cli
+- Bootstrap 4 模板
