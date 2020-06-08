@@ -133,9 +133,6 @@ export default {
         .then(response => {
           this.searchStore = response.data;
           this.loading = false;
-        })
-        .catch(function (error) {
-          console.log(error);
         });
     },
     sort() {
